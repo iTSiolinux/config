@@ -2,7 +2,7 @@
 
 echo setting up the enviroment by updating the system!
 
-# apt upgrade -y
+apt upgrade -y
 
 # Chromium
 apt-get install chromium-browser -y
@@ -10,6 +10,12 @@ apt-get install scratch -y
 
 # Github
 apt-get install git -y
+
+# Blender
+apt-get install blender -y
+
+# Unity
+apt-get install unity -y
 
 # NodeJS
 apt-get install npm -y
@@ -26,6 +32,10 @@ apt-get install openjdk-21-jdk -y
 # Wine64 && VirtulMachine
 apt-get install wine64 -y
 apt-get install vm -y
+
+# vlc and yt-dlp
+apt-get install youtube-dl -y
+apt-get install vlc -y
 
 # JetBrains Java
 wget https://download.jetbrains.com/idea/ideaIC-2023.3.2.tar.gz
